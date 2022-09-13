@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="assets/imagens/KdevIcon.ico">
+  <link rel="stylesheet" href="CSS/style.css" />
+  <title>Conversor</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <div class="card">
+    <div class="container">
+      <div id="header">
+        <h1>Conversor</h1>
+      </div>
+      <div>
+        <h3>Insira o decimal</h3>
+        <!-- input aqui -->
+        <input id="decimal" /><br />
+      </div>
+      <div>
+
+        <!-- select -->
+        <select id="select">
+          <option value="selecione" selected>Selecione uma base</option>
+          <option value="2">Base 2</option>
+          <option value="3">Base 3</option>
+          <option value="4">Base 4</option>
+          <option value="5">Base 5</option>
+          <option value="6">Base 6</option>
+          <option value="7">Base 7</option>
+          <option value="8">Base 8</option>
+          <option value="9">Base 9</option>
+          <option value="10">Base 10</option>
+          <option value="11">Base 11</option>
+          <option value="12">Base 12</option>
+          <option value="13">Base 13</option>
+          <option value="14">Base 14</option>
+          <option value="15">Base 15</option>
+          <option value="16">Base 16</option>
+        </select>
+        <div>
+          <!-- BOTAO -->
+          <button onclick="getValues()">Converter</button><br />
+          <div id="res"></div>
+        </div>
+        <!-- resultado -->
+        <div id="resultado">
+          <p>Resultado</p>
+          <label id="result"></label>
+        </div>
+      </div>
+
+    </div>
+    </section>
+  </div>
+  <div class="footer">
+    <footer>
+      <ul class="social_list">
+        <li>
+          <a href="https://www.instagram.com/_kadmo_/" target="blank"><i class="fa-brands fa-instagram"></i>
+            Instagram</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/gabryel-kadmo-848652197/" target="blank"><i
+              class="fa-brands fa-linkedin"></i> LinkedIn</a>
+        </li>
+        <li>
+          <a href="https://github.com/kadmoo" target="blank"><i class="fa-brands fa-github"></i> Github</a>
+        </li>
+      </ul>
+
+      <p class="copy_right"><span>Kadmo</span> &copy; 2022</p>
+    </footer>
+  </div>
+  </div>
+  <script src="js/array-stack.js"></script>
+  <script src="js/conversor_base.js"></script>
+</body>
+
+</html>
